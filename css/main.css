@@ -1,0 +1,50 @@
+body {
+  max-width: 800px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  background-color: #d8f0f8;
+}
+
+header h1 {
+  font-size: 1.8em;
+  flex-basis: 100%;
+  margin: 5px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: bold;
+  flex-basis: 100%;
+  margin: 5px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 15px;
+  height: 2em;
+  background-color: #d8f0f8;
+}
+
+footer a,
+footer a.visited {
+  color: #000;
+  text-decoration: none;
+  align-self: center;
+  line-height: 2em;
+  text-transform: uppercase;
+}
