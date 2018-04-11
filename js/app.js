@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
       for (const key in data) {
         let [target,attr] = key.split(';');
         const el = document.querySelector(`#${target}`);
-        console.log(target, attr, data[key]);
         if (null !== el) {
           if (!attr) {
             el.innerHTML = data[key];
