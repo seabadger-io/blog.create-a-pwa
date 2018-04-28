@@ -6,7 +6,11 @@ self.addEventListener('install', (event) => {
     '/js/app.js',
     '/index.html',
     '/css/main.css',
-    '/data/data.json'
+    '/data/data.json',
+    '/manifest.json',
+    '/img/logo/logo@48.png',
+    '/img/logo/logo@192.png',
+    '/img/logo/logo@512.png'
   ];
   event.waitUntil(
     caches.open(currentCache).then((cache) => {
