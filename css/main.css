@@ -36,8 +36,9 @@ footer {
   flex-flow: column;
   width: 100%;
   padding: 15px;
-  height: 2em;
+  height: 3em;
   background-color: #d8f0f8;
+  box-sizing: border-box;
 }
 
 footer a,
