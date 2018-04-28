@@ -1,6 +1,6 @@
 {
-  "pagetitle": "My first Service Worker",
-  "pagedescription": "Getting started with offline-first",
+  "pagetitle": "Creating a Progressive Web Application",
+  "pagedescription": "The awesome new world of mobile web development",
   "theimage;src": "img/picture.jpg",
   "theimage;alt": "A handsome chameleon"
 }
